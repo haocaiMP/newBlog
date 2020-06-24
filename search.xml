@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2020/05/14/hello-world/</url>
+    <url>/newBlog/2020/05/14/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
@@ -20,7 +20,7 @@
   </entry>
   <entry>
     <title>数组去重</title>
-    <url>/2020/06/23/array/</url>
+    <url>/newBlog/2020/06/23/array/</url>
     <content><![CDATA[<h2 id="最基本排序-indexOf"><a href="#最基本排序-indexOf" class="headerlink" title="最基本排序(indexOf)"></a>最基本排序(indexOf)</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*</span><br><span class="line">* 根据数组indexOf方法判断数据是否存在（不存在为-1）</span><br><span class="line">* indexOf IE8 以下不支持</span><br><span class="line">* *&#x2F;</span><br><span class="line">function unique(arr)&#123;</span><br><span class="line">  var n&#x3D;[];</span><br><span class="line">  for (var i &#x3D; 0; i &lt; arr.length; i++) &#123;</span><br><span class="line">    if(n.indexOf(arr[i])&#x3D;&#x3D;-1)&#123;</span><br><span class="line">      n.push(arr[i]);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  return n;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="先排序-再相邻比较"><a href="#先排序-再相邻比较" class="headerlink" title="先排序 再相邻比较"></a>先排序 再相邻比较</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;*</span><br><span class="line">* 给传入数组排序，排序后相同值相邻，</span><br><span class="line">* 然后遍历时,新数组只加入不与前一值重复的值。</span><br><span class="line">* 会打乱原来数组的顺序</span><br><span class="line">* *&#x2F;</span><br><span class="line">function unique1(arr) &#123;</span><br><span class="line">  arr.sort();</span><br><span class="line">  var n &#x3D; [arr[0]];</span><br><span class="line">  for (var i &#x3D; 1; i &lt; arr.length; i++) &#123;</span><br><span class="line">      if (arr[i] !&#x3D;&#x3D; n[n.length - 1]) &#123;</span><br><span class="line">          n.push(arr[i]);</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  return n;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
