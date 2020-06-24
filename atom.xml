@@ -5,9 +5,9 @@
   <subtitle>只要心里有海，那里都是马尔代夫</subtitle>
   <link href="/newBlog/atom.xml" rel="self"/>
   
-  <link href="https://haocaimp.github.io/"/>
+  <link href="https://haocaimp.github.io/newBlog/"/>
   <updated>2020-06-24T03:26:59.549Z</updated>
-  <id>https://haocaimp.github.io/</id>
+  <id>https://haocaimp.github.io/newBlog/</id>
   
   <author>
     <name>haocaiMP</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>数组去重</title>
-    <link href="https://haocaimp.github.io/2020/06/23/array/"/>
-    <id>https://haocaimp.github.io/2020/06/23/array/</id>
+    <link href="https://haocaimp.github.io/newBlog/2020/06/23/array/"/>
+    <id>https://haocaimp.github.io/newBlog/2020/06/23/array/</id>
     <published>2020-06-23T07:17:37.703Z</published>
     <updated>2020-06-24T03:26:59.549Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://haocaimp.github.io/2020/05/14/hello-world/"/>
-    <id>https://haocaimp.github.io/2020/05/14/hello-world/</id>
+    <link href="https://haocaimp.github.io/newBlog/2020/05/14/hello-world/"/>
+    <id>https://haocaimp.github.io/newBlog/2020/05/14/hello-world/</id>
     <published>2020-05-14T08:51:32.884Z</published>
     <updated>2020-05-14T08:51:32.885Z</updated>
     
